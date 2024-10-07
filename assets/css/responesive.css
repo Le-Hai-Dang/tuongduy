@@ -92,7 +92,10 @@
     .reviews {
         margin-bottom: 70px;
     }
-    
+    .btn-1, .btn-2 {
+        animation: pulse 1.5s infinite;
+        transition: all 0.3s ease;
+    }
 }
 
 
@@ -215,7 +218,9 @@
     .footer_dir p{
         font-size: 13px;
     }
-    
+    .btn-1, .btn-2 {
+        animation: pulse 1.2s infinite;
+    }
 }
 
 
@@ -336,10 +341,19 @@
         margin-bottom: 70px;
     }
     .footer_dir p{
+        text-align: left;
+        margin-left: 19px;
         font-size: 11px;
     }
     .how{
         font-size: 22px;
+    }
+    .contact{
+        text-align: left;
+        margin-left:19px ;
+    }
+    .btn-1, .btn-2 {
+        animation: pulse 1.2s infinite;
     }
 }
 

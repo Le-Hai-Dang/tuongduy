@@ -1,4 +1,3 @@
-// Object chứa các bản dịch của trang
 const translations = {
     en: {
         title: "Tuong Duy Pharmacy",
@@ -38,7 +37,7 @@ const translations = {
         branches: "6 chi nhánh",
         pharmacists: "10 dược sĩ",
         gppStandard: "Đạt chuẩn GPP",
-        reviewsHeading: "Thuốc chuẩn - Giá tốt - Tư vấn tận tâm",
+        reviewsHeading: "Thuốc chuẩn - Giá tốt",
         reviewsText: "Quầy Thuốc Tường Duy - Đối tác tin cậy cho sức khỏe của bạn. Với 7 năm kinh nghiệm trong lĩnh vực dược phẩm, chúng tôi tự hào là chuỗi nhà thuốc uy tín tại Phú Quốc, sở hữu 6 chi nhánh hiện đại và đội ngũ 10 dược sĩ chuyên nghiệp. Chúng tôi cam kết mang đến những sản phẩm chất lượng cao, dịch vụ tận tâm và tư vấn chuyên sâu, giúp bạn chăm sóc sức khỏe toàn diện.",
         tipsHowToCall: "Làm thế nào để gọi chúng tôi?",
         serviceHeading: "Dịch vụ của chúng tôi",

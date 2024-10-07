@@ -129,12 +129,13 @@ body {
     justify-content: center;
     color: var(--primary-color);
     text-decoration: none;
-    
-    
-    
     width: 240px;
     border-radius: 55px;
 }
+.btn-1:hover{
+    background-color: #adeaad ;
+}
+
 .btn-1 i{
     margin-right: 12px;
 }
@@ -144,7 +145,7 @@ body {
 .btn-2{
     background-color: var(--yellow-color);
     padding: 20px 25px;
-
+    cursor: pointer;
     color: var(--primary-color);
     
     text-decoration: none;
@@ -154,6 +155,9 @@ body {
     border-radius: 55px;
 }
 
+.btn-2:hover{
+    background-color: #f4f48c ;
+}
 /*CSS cho phần giới thiệu doanh nghiệp */
 
 
@@ -437,4 +441,16 @@ border-radius: 15px
 }
 .contact i{
     margin-right: 5px;
+}
+
+
+
+.btn-1, .btn-2 {
+    animation: pulse 1.7s infinite;
+    transition: all 0.3s ease;
+}
+
+/* Khi hover, làm hiệu ứng nổi bật hơn */
+.btn-1:hover, .btn-2:hover {
+    transform: scale(1.1);
 }
