@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quầy Thuốc Tường Duy</title>
+    <link rel="icon" href="./assets/img/logo-lite.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/responesive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container-all">
+           <!-- Header -->
+    <header>
+        <div class="top-bar layout-bar">
+            <div class="logo text-primary">Quầy thuốc Tường Duy</div> <!-- Logo của website -->
+            <div class="nav">
+                <button id="language-toggle" class="language-button">
+                    <img id="language-flag" src="./assets/img/England_flag.svg" alt="English flag" style="width: 60px;">
+                    <span id="language-text">En</span>
+                </button>
+            </div>
+            
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero ">
+        <div class="hero-image">
+            <img class="img" src="./assets/img/avt.png" alt="Doctor Image"> <!-- Ảnh bác sĩ minh họa -->
+        </div>
+        <div class="hero-content ">
+            <h1>Tư vấn sức khỏe trực tuyến</h1> <!-- Tiêu đề chính -->
+            <p class="hero_text">Chúng tôi cung cấp dịch vụ tư vấn sức khỏe trực tuyến miễn phí, giao thuốc tận nơi siêu tốc trong vòng 2 giờ khu vực Phú Quốc và miễn phí vận chuyển. </p>
+            <div class="btn">
+            <a href="tel:+038 984 3344"  class="btn-1 "><i class="fa-solid fa-phone "></i><strong>Bấm để gọi</strong></a>
+            <a  class="btn-2"><i class="fa-solid fa-comment "></i><strong>Bấm để trò chuyện</strong></a> 
+            </div>
+        </div>
+       
+    </div>
+
+    <!-- Features Section -->
+    <div class="features">
+        <div class="feature-item blue text-primary">
+            <h2 class="text_in_features"><i class="fa-solid fa-notes-medical"></i>  7 năm kinh nghiệm</h2> <!-- Các tính năng -->
+           
+        </div>
+            
+        <div class="feature-item blue text-primary">
+            <h2 class="text_in_features"><i class="fa-solid fa-hospital icon"></i>6 chi nhánh</h2>
+
+        </div>
+        <div class="feature-item blue text-primary">
+            <h2 class="text_in_features"><i class="fa-solid fa-user-nurse"></i></i> 10 dược sĩ</h2>
+
+        </div>
+        <div class="feature-item blue text-primary">
+            <h2 class="text_in_features"><i class="fa-solid fa-briefcase-medical"></i></i></i> Đạt chuẩn GPP</h2>
+
+        </div>
+    </div>
+
+    <!-- Reviews Section -->
+    <div class="reviews text-primary">
+        <h2 class="head">Thuốc chuẩn - Giá tốt</h2>
+        <p>Quầy Thuốc Tường Duy - Đối tác tin cậy cho sức khỏe của bạn. Với 7 năm kinh nghiệm trong lĩnh vực dược phẩm, chúng tôi tự hào là chuỗi nhà thuốc uy tín tại Phú Quốc, sở hữu 6 chi nhánh hiện đại và đội ngũ 10 dược sĩ chuyên nghiệp. Chúng tôi cam kết mang đến những sản phẩm chất lượng cao, dịch vụ tận tâm và tư vấn chuyên sâu, giúp bạn chăm sóc sức khỏe toàn diện.</p>
+    </div>
+
+    <!-- Health Tips Section -->
+    <div class="health-tips">
+        <div class="tip-item pink">
+            <h2 class="how">Cách để gọi chúng tôi?</h2>
+            <p class="st1"><strong>Bước 1:</strong> Bấm phím "Bấm để gọi" ở đầu trang</p>
+            <p class="st2"><strong>Bước 2:</strong> Trang sẽ dẫn đến giao diện gọi, bấm phím gọi</p>
+            <p class="st3"><strong>Bước 3:</strong> Sau khi nói chuyện với tư vấn viên, chúng tôi sẽ đến giao thuốc trong vòng 2 giờ nếu bạn có đặt thuốc</p>
+
+        </div>
+        <div class="tip-item green">
+            <h2>Dịch vụ của chúng tôi</h2>
+            <div class="sevice">
+                <p class="sev1"><i class="fa-solid fa-user icon"></i> Tư vấn miễn phí</p>
+                <p class="sev2"><i class="fa-solid fa-truck-fast icon"></i>Giao hàng miễn phí</p>
+                <p class="sev3"><i class="fa-solid fa-bolt icon"></i> Đảm bảo nhận thuốc trong vòng 2 giờ tại khu vực Phú Quốc </p>
+            </div>
+   
+        </div>
+    </div>
+    <div class="hospital">
+        <div class="hospital_text">
+            <h2 class="head_hospital">Hình cảnh các chi nhánh</h2>
+        </div>
+        <div class="image-grid">
+            <div class="image-item"><img src="./assets/img/CN1.jpg" alt="" onclick="openModal(this)"></div>
+            <div class="image-item"><img src="./assets/img/CN2.jpg" alt="" onclick="openModal(this)"></div>
+            <div class="image-item"><img src="./assets/img/CN3.jpg" alt="" onclick="openModal(this)"></div>
+            <div class="image-item"><img src="./assets/img/CN4.jpg" alt="" onclick="openModal(this)"></div>
+            <div class="image-item"><img src="./assets/img/CN5.jpg" alt="" onclick="openModal(this)"></div>
+            <div class="image-item"><img src="./assets/img/CN6.jpg" alt="" onclick="openModal(this)"></div>
+        </div>
+    
+        <!-- Modal để hiển thị ảnh zoom -->
+        <div id="modal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="modal-img">
+            <div id="caption"></div>
+        </div>
+    </div>
+    
+   
+ <!-- <a href="https://www.google.com/maps?q=10.29326,103.91616" target="_blank"><i class="fa-solid fa-location-dot location_icon"></i>Xem đường đi</a> -->
+ <div class="address-container">
+    <h2 class="head_location">Vị trí trên bản đồ</h2>
+    
+  </div>
+
+  <div class="map-container">
+    <iframe
+      src="https://www.google.com/maps?q=10.29326,103.91616&z=15&output=embed"
+      width="600"
+      height="450"
+      style="border:0;"
+      allowfullscreen=""
+      
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+  <div class="directions">
+    <p>Chi nhánh 1</p>
+    <a href="https://www.google.com/maps?q=10.29326,103.91616" class="dir_btn"><strong>Xem chỉ đường</strong></a>
+</div>
+   <!-- Footer -->
+   <footer>
+    <div class="footer-info">
+        <div class="footer_avatar">
+            <img src="./assets/img/logo.png" alt="logo">
+        </div>
+        <div class="footer_dir">
+            <h3>Địa chỉ các chi nhánh</h3>
+            <p><i class="fa-solid fa-location-dot"></i>Chi nhánh 1: chợ Cửa Cạn - Tổ 2, ấp Lê Bát, xã Cửa Cạn</p>
+            <p><i class="fa-solid fa-location-dot"></i>Chi nhánh 2: chợ Vũng Bầu - Tổ 6, ấp 4, xã Cửa Cạn</p>
+            <p><i class="fa-solid fa-location-dot"></i>Chi nhánh 3: tổ 6, ấp Suối Lớn, xã Dương Tơ</p>
+            <p><i class="fa-solid fa-location-dot"></i>Chi nhánh 4: tổ 4, ấp Rạch Hàm, xã Hàm Ninh</p>
+            <p><i class="fa-solid fa-location-dot"></i>Chi nhánh 5: tổ 4, ấp Gành Dầu, xã Gành Dầu</p>
+            <p><i class="fa-solid fa-location-dot"></i>Chi nhánh 6: ấp Cây Thông Ngoài, xã Cửa Dương</p>
+
+
+
+        </div>
+        <div class="contact">
+            <h3>Liên hệ</h3>
+            <a><i class="fa-solid fa-user"></i>Tường Duy</a>
+            <a href="tel:+038 984 3344"><i class="fa-solid fa-phone"></i>0389 843 344</a>
+            <a href="https://www.facebook.com/profile.php?id=100092561503978&sk=friends_likes"><i class="fa-brands fa-facebook"></i>Quầy Thuốc Tường Duy</a>
+        </div>
+
+    </div>
+</footer>
+    </div>
+    
+    
+<script src="./main.js"></script>
+</body>
+</html>
+
+
+

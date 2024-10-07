@@ -1,0 +1,206 @@
+/* tablet */
+@media (min-width:46.25em) and (max-width: 63.9375em) {
+    .top-bar {
+        padding: 12px;
+    }
+    .hero{
+        grid-template-columns: 1fr 3fr;
+        gap:0px;
+        height: 300px;
+    }
+    .hero-image .img{
+        width: 250px;
+        
+    }
+    .hero h1 {
+        font-size: 32px;
+        max-width: 500px;
+    }
+    .hero p{
+        max-width: 400px;
+        margin-top: 25px;
+        text-align: justify;
+    }
+    
+    .hero-content {
+        margin: 50px 0 0 0px;
+        max-width: 450px;
+        color: #C6DEFD;
+    }
+    .img{
+    
+         margin:34px 10px 0px 12px;
+         width: 320px;
+         bottom: 0;
+     }    
+     .btn{
+    display:flex ;
+    align-items:center;
+    text-align: center;
+    padding: 20px 25px;
+    justify-content: center;
+    margin-top: 40px;
+     }
+     .btn-1{
+        background-color: var(--green-color);
+        padding: 20px 15px;
+        justify-content: center;
+        color: var(--primary-color);
+        text-decoration: none;
+        font-size: 15px;
+        margin-left: -25px;
+        margin-right: 12px;
+        width: 240px;
+        border-radius: 55px;
+    }
+    
+    .btn-2{
+        background-color: var(--yellow-color);
+        padding: 20px 15px;
+        font-size: 15px;
+    
+        color: var(--primary-color);
+        
+        text-decoration: none;
+        
+        
+        /* margin-right: 32px; */
+        width: 240px;
+        border-radius: 55px;
+    }
+     /*Phần features*/
+    .features {
+        grid-template-columns: repeat(2, 1fr); /* 2 cột cho tablet */
+    }
+
+    .health-tips {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+    }
+    .close {
+        display: none
+    }
+    .footer-info{
+        font-size: 13px;
+    }
+    /*tips item*/
+    .reviews {
+        margin-bottom: 70px;
+    }
+    
+}
+
+
+/*Di động*/
+@media (max-width: 46.1875em) {
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "hero-content"
+            "hero-image";
+        margin: 5px;
+        border-radius: 15px;
+        background-color: #3b3aaf;
+        color: #fff;
+        gap: 20px;
+        height: 502px;
+        animation: main 1s ease 0s 1 normal forwards;
+    }
+    .hero-image {
+        grid-area: hero-image;
+    }
+    
+    .hero-content {
+        grid-area: hero-content;
+    }
+    .logo{
+        font-size: 20px;
+    }
+    #language-text{
+        display: none;
+    }
+    
+    .btn-2{
+        display: none;
+    }
+    .hero-content {
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 20px;
+    }
+    .hero-content h1{
+        font-size: 40px;
+    }
+    .hero-image .img {
+        width: 220px;
+        margin: 0 auto;
+        margin:-21px 10px 0px 74px;
+
+    }
+
+    .hero_text {
+        display: none; /* Ẩn phần text trên mobile */
+    }
+
+    .features {
+        grid-template-columns: 1fr; /* 1 cột trên mobile */
+    }
+
+    .health-tips {
+        grid-template-columns: 1fr; /* 1 cột trên mobile */
+        padding: 10px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    .footer-info {
+        grid-template-columns: 1fr; /* Các phần tử trong footer xếp thành 1 cột */
+    }
+
+    .btn-1, .btn-2 {
+        width: 100%; 
+    }
+    .footer-logo {
+        text-align: center;
+    }
+
+    .footer_avatar{
+        display: flex;
+        justify-content: center;
+    }
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+    }
+    .modal-content {
+        max-width: 90%; 
+        
+    }
+
+    .close {
+        display: block;
+        top:800px;
+        right: 190px; 
+        background-color: rgb(28, 54, 113);
+        border-radius: 50%;
+        transform: rotate(90deg);
+        font-size: 70px;
+        margin: 0 auto;
+    }
+    .image-item img {
+        margin: 0 auto
+    }
+    .reviews {
+        margin-bottom: 70px;
+    }
+}
+
+
