@@ -28,8 +28,10 @@
         color: #C6DEFD;
     }
     .img{
-    
-         margin:34px 10px 0px 12px;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+         margin-top:34px;
          width: 320px;
          bottom: 0;
      }    
@@ -95,7 +97,7 @@
 
 
 /*Di động*/
-@media (max-width: 46.1875em) {
+@media (min-width: 376px) and (max-width: 46.1875em) {
     .hero {
         display: grid;
         grid-template-columns: 1fr;
@@ -108,7 +110,7 @@
         background-color: #3b3aaf;
         color: #fff;
         gap: 20px;
-        height: 502px;
+        height: 552px;
         animation: main 1s ease 0s 1 normal forwards;
     }
     .hero-image {
@@ -124,9 +126,13 @@
     #language-text{
         display: none;
     }
-    
-    .btn-2{
-        display: none;
+    .btn{
+        display: flex;
+        flex-direction: column;
+        padding: 0 35px;
+        gap: 30px
+        
+       
     }
     .hero-content {
         margin: 0 auto;
@@ -134,12 +140,17 @@
         padding: 20px;
     }
     .hero-content h1{
-        font-size: 40px;
+        display: flex;
+        font-size: 35px;
+        align-items: center;
+        text-align:center;
     }
     .hero-image .img {
-        width: 220px;
+        width: 240px;
+        display: flex;
         margin: 0 auto;
-        margin:-21px 10px 0px 74px;
+       align-items: center;
+       margin-top: -28px;
 
     }
 
@@ -166,7 +177,7 @@
     }
 
     .btn-1, .btn-2 {
-        width: 100%; 
+        width: 120%; 
     }
     .footer-logo {
         text-align: center;
@@ -201,6 +212,134 @@
     .reviews {
         margin-bottom: 70px;
     }
+    .footer_dir p{
+        font-size: 13px;
+    }
+    
 }
 
+
+@media (max-width: 376px){
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "hero-content"
+            "hero-image";
+        margin: 5px;
+        border-radius: 15px;
+        background-color: #3b3aaf;
+        color: #fff;
+        gap: 20px;
+        height: 550px;
+        animation: main 1s ease 0s 1 normal forwards;
+    }
+    .hero-image {
+        grid-area: hero-image;
+    }
+    
+    .hero-content {
+        grid-area: hero-content;
+    }
+    .logo{
+        font-size: 18px;
+    }
+    #language-text{
+        display: none;
+    }
+    .btn{
+        display: flex;
+        flex-direction: column;
+        padding: 0 35px;
+        gap: 30px
+        
+       
+    }
+    .hero-content {
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 20px;
+    }
+    .hero-content h1{
+        display: flex;
+        font-size: 30px;
+        align-items: center;
+        text-align:center;
+    }
+    .hero-image .img {
+        width: 240px;
+        display: flex;
+        margin: 0 auto;
+
+        align-items: center;
+        margin-top: -16px;
+
+    }
+
+    .hero_text {
+        display: none; /* Ẩn phần text trên mobile */
+    }
+
+    .features {
+        grid-template-columns: 1fr; /* 1 cột trên mobile */
+    }
+
+    .health-tips {
+        grid-template-columns: 1fr; /* 1 cột trên mobile */
+        padding: 10px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    .footer-info {
+        grid-template-columns: 1fr; /* Các phần tử trong footer xếp thành 1 cột */
+    }
+
+    .btn-1, .btn-2 {
+        width: 120%; 
+    }
+    .footer-logo {
+        text-align: center;
+    }
+
+    .footer_avatar{
+        display: flex;
+        justify-content: center;
+    }
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+    }
+    .modal-content {
+        max-width: 90%; 
+        
+    }
+
+    .close {
+        display: block;
+        top:800px;
+        right: 190px; 
+        background-color: rgb(28, 54, 113);
+        border-radius: 50%;
+        transform: rotate(90deg);
+        font-size: 70px;
+        margin: 0 auto;
+    }
+    .image-item img {
+        margin: 0 auto
+    }
+    .reviews {
+        margin-bottom: 70px;
+    }
+    .footer_dir p{
+        font-size: 11px;
+    }
+    .how{
+        font-size: 22px;
+    }
+}
 
