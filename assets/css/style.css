@@ -8,7 +8,7 @@
 /* Thiết lập font chữ cho toàn bộ trang */
 body {
     font-family: 'Arial', sans-serif;
-    
+    overflow-x: hidden;
 
 }
 
