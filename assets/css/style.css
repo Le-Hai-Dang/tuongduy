@@ -107,7 +107,7 @@ body {
     color: #C6DEFD;
 }
 .img{
-
+    height: auto;
      margin:10px 10px 0px 17px;
      width: 320px;
      bottom: 0;
@@ -437,12 +437,14 @@ border-radius: 15px
     flex-wrap: wrap;
     text-decoration: none;
     color: black;
-    margin: 5px;
+    margin: 5px 5px;
 }
 .contact i{
     margin-right: 5px;
 }
-
+.contact-last{
+    padding-bottom: 25px;
+}
 
 
 .btn-1, .btn-2 {

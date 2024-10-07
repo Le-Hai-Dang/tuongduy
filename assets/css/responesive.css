@@ -9,6 +9,7 @@
         height: 300px;
     }
     .hero-image .img{
+        height: auto;
         width: 250px;
         
     }
@@ -28,6 +29,7 @@
         color: #C6DEFD;
     }
     .img{
+        height: auto;
         display: flex;
         align-items: center;
         margin: 0 auto;
@@ -154,6 +156,7 @@
         margin: 0 auto;
        align-items: center;
        margin-top: -28px;
+       height: auto;
 
     }
 
@@ -200,14 +203,8 @@
     }
 
     .close {
-        display: block;
-        top:800px;
-        right: 190px; 
-        background-color: rgb(28, 54, 113);
-        border-radius: 50%;
-        transform: rotate(90deg);
-        font-size: 70px;
-        margin: 0 auto;
+        display: none;
+       
     }
     .image-item img {
         margin: 0 auto
@@ -276,7 +273,7 @@
         width: 240px;
         display: flex;
         margin: 0 auto;
-
+        height: auto;
         align-items: center;
         margin-top: -16px;
 
@@ -325,14 +322,8 @@
     }
 
     .close {
-        display: block;
-        top:800px;
-        right: 190px; 
-        background-color: rgb(28, 54, 113);
-        border-radius: 50%;
-        transform: rotate(90deg);
-        font-size: 70px;
-        margin: 0 auto;
+        display: none;
+        
     }
     .image-item img {
         margin: 0 auto
@@ -354,6 +345,13 @@
     }
     .btn-1, .btn-2 {
         animation: pulse 1.2s infinite;
+    }
+    .directions p{
+        font-size: 12px;
+    }
+    .directions a{
+        font-size: 12px;
+        width: 50%;
     }
 }
 
