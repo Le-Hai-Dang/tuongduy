@@ -9,7 +9,7 @@ const translations = {
         branches: "6 Branches",
         pharmacists: "10 Pharmacists",
         gppStandard: "GPP Standard",
-        reviewsHeading: "Quality Medicine - Good Prices",
+        reviewsHeading: "Quality Medicine",
         reviewsText: "Tuong Duy Pharmacy - Your trusted partner in health. With 7 years of experience in the pharmaceutical field, we are proud to be a reputable pharmacy chain in Phu Quoc, owning 6 modern branches and a team of 10 professional pharmacists. We are committed to providing high-quality products, dedicated service, and in-depth consultations to help you take care of your health comprehensively.",
         tipsHowToCall: "How to Call Us?",
         serviceHeading: "Our Services",
@@ -108,12 +108,6 @@ function updatePageContent() {
     document.querySelector('.sev3').textContent = translations[currentLanguage].sev3;
     document.querySelector('.head_hospital').textContent = translations[currentLanguage].head_hospital;
     document.querySelector('.logo').textContent = translations[currentLanguage].logo;
-
-
-
-
-
-
 }
 
 // Lắng nghe sự kiện click để chuyển đổi ngôn ngữ
@@ -137,7 +131,6 @@ function openModal(img) {
     });
 }
 
-// Đóng modal
 function closeModal() {
     var modal = document.getElementById("modal");
     modal.style.display = "none";

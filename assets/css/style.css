@@ -255,11 +255,7 @@ body {
 .tip-item .sevice .i{
     
 }
-
-
 /*CSS phần ảnh chi nhánh*/
-
-
 .image-grid {
     display: grid;
     gap: 10px;
@@ -267,7 +263,6 @@ body {
     width: 100%;
     max-width: 1150px; /* Giới hạn chiều rộng của toàn bộ layout */
 }
-
 .image-item {
     position: relative;
     overflow: hidden;

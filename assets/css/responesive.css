@@ -139,6 +139,7 @@
         
        
     }
+    
     .hero-content {
         margin: 0 auto;
         max-width: 100%;
@@ -212,6 +213,7 @@
     .reviews {
         margin-bottom: 70px;
     }
+    
     .footer_dir p{
         font-size: 13px;
     }
@@ -347,11 +349,12 @@
         animation: pulse 1.2s infinite;
     }
     .directions p{
-        font-size: 9px;
+        font-size: 15px;
     }
     .directions a{
         font-size: 12px;
         width: 50%;
     }
+    
 }
 
