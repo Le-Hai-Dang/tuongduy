@@ -190,8 +190,8 @@ body {
     display: grid;
     justify-content: center;
     
-    grid-template-columns: 2fr 1fr; /* 2 cột */
-    gap: 40px;
+    grid-template-columns: 1fr 1fr; /* 2 cột */
+    gap: 20px;
     margin-top: 25px;
     animation: bottom 1s ease 0s 1 normal forwards;
 }
@@ -222,6 +222,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
     max-width: 1150px; /* Giới hạn chiều rộng của toàn bộ layout */
+    margin-bottom: 40px;
 }
 .image-item {
     position: relative;
@@ -380,7 +381,29 @@ border-radius: 15px
     margin-right: 5px;
 }
 .contact-last{
-    padding-bottom: 25px;
+    display: flex;
+    padding: 12px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+    margin: 0 auto;
+    border-radius: 15px;
+    background: var(--green-color);
+
+    max-width: 200px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #333;
+    animation: pulse 1.7s infinite;
+    transition: all 0.3s ease;
+    
+}
+.contact-last:hover{
+    background-color: #adeaad;
+}
+.contact-last i {
+    margin-right: 5px;
 }
 .btn-1, .btn-2 {
     animation: pulse 1.7s infinite;
@@ -389,9 +412,7 @@ border-radius: 15px
 .btn-1:hover, .btn-2:hover {
     transform: scale(1.1);
 }
-.how{
-    margin-top: 55px;
-}
+
 /*facebook*/
 
 
