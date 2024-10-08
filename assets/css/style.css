@@ -363,6 +363,10 @@ border-radius: 15px
 .footer_dir i{
     margin-right: 5px;
 }
+.contact{
+    display: flex;
+    flex-direction: column;
+}
 .contact h3{
     margin-bottom: 7px;
     margin-top: 20px;
@@ -380,18 +384,24 @@ border-radius: 15px
 .contact i{
     margin-right: 5px;
 }
-.contact-last{
+.ct_fa{
     display: flex;
-    padding: 12px;
     text-align: center;
     align-items: center;
     justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.contact-last{
+    
+    padding: 12px;
+    
    
     margin: 0 auto;
     border-radius: 15px;
     background: var(--green-color);
-
-    max-width: 200px;
+    width: 100%;
+    max-width: 250px;
     font-size: 14px;
     text-decoration: none;
     color: #333;
