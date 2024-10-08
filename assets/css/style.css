@@ -188,8 +188,10 @@ body {
 /* CSS cho phần Health Tips Section */
 .health-tips {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* 2 cột */
-    gap: 20px;
+    justify-content: center;
+    
+    grid-template-columns: 2fr 1fr; /* 2 cột */
+    gap: 40px;
     margin-top: 25px;
     animation: bottom 1s ease 0s 1 normal forwards;
 }
@@ -387,6 +389,13 @@ border-radius: 15px
 .btn-1:hover, .btn-2:hover {
     transform: scale(1.1);
 }
+.how{
+    margin-top: 55px;
+}
+/*facebook*/
+
+
+
 
 
 

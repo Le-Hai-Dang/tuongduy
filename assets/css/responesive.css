@@ -1,5 +1,8 @@
 /* tablet */
 @media (min-width:46.25em) and (max-width: 63.9375em) {
+    .how_call{
+        display: none;
+    }
     .top-bar {
         padding: 12px;
     }
@@ -78,7 +81,7 @@
     }
 
     .health-tips {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     footer {
@@ -360,6 +363,18 @@
         font-size: 15px;
         width: 50%;
     }
-    
+    .facebook {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .fb-page {
+        margin: 0 auto;
+        max-width: 100%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+    }
 }
 
