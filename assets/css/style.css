@@ -451,3 +451,29 @@ border-radius: 15px
 .btn-1:hover, .btn-2:hover {
     transform: scale(1.1);
 }
+
+
+/* Căn chỉnh Messenger Chat Plugin ở góc dưới bên phải */
+.fb-customerchat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999; /* Đảm bảo chatbox luôn nằm trên cùng */
+  }
+  
+  /* Điều chỉnh kích thước nếu cần */
+  .fb-customerchat iframe {
+    width: 350px !important;
+    height: 450px !important;
+  }
+  
+  /* Thêm hiệu ứng chuyển động khi xuất hiện */
+  .fb-customerchat {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .fb-customerchat.fb_iframe_widget_visible {
+    opacity: 1;
+  }
+  
